@@ -1,0 +1,2393 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7300b1b879842eef3bc8dde3bb688753 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7300b1b879842eef3bc8dde3bb688753" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7300b1b879842eef3bc8dde3bb688753 = L.map(
+                "map_7300b1b879842eef3bc8dde3bb688753",
+                {
+                    center: [20.2095, 79.5603],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_740af6154b1c6ade9599e1d5fc558b69 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_740af6154b1c6ade9599e1d5fc558b69.addTo(map_7300b1b879842eef3bc8dde3bb688753);
+        
+    
+            var marker_cluster_d65230a25fa895c83cb76b6b01304d29 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_a8497b98a0c228cd393075d17c98704a = L.marker(
+                [20.137276666666, 79.67058],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_6675ef95c6f833c67ecab403617db721 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2059d6190d3f7212e32b4f93fa7be80b = $(`<div id="html_2059d6190d3f7212e32b4f93fa7be80b" style="width: 100.0%; height: 100.0%;">DINA ZUNGA THAKUR,202 USHARLA   MUL  ,9011425718.0</div>`)[0];
+                popup_6675ef95c6f833c67ecab403617db721.setContent(html_2059d6190d3f7212e32b4f93fa7be80b);
+            
+        
+
+        marker_a8497b98a0c228cd393075d17c98704a.bindPopup(popup_6675ef95c6f833c67ecab403617db721)
+        ;
+
+        
+    
+    
+            var marker_cd15e908723a2ccc6671878d71fecbe5 = L.marker(
+                [18.53781672, 73.82976711],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_69b206cc4efd8a3ad0f82e68da21af32 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9bb70656ea299a4aadf9e0ba5fa0e748 = $(`<div id="html_9bb70656ea299a4aadf9e0ba5fa0e748" style="width: 100.0%; height: 100.0%;">BHASHKAR KESHAO GORDWAR,342 SOMNATH PROJECT MARODA   MUL  ,9623133055.0</div>`)[0];
+                popup_69b206cc4efd8a3ad0f82e68da21af32.setContent(html_9bb70656ea299a4aadf9e0ba5fa0e748);
+            
+        
+
+        marker_cd15e908723a2ccc6671878d71fecbe5.bindPopup(popup_69b206cc4efd8a3ad0f82e68da21af32)
+        ;
+
+        
+    
+    
+            var marker_204dfc199b79fa9f0c8a1690811b7a5d = L.marker(
+                [20.112986666666, 79.638321666666],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_c1e51080dfbf83322b4fe3f583e45054 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bca007f1152b9ae97b5ed7c1181584e0 = $(`<div id="html_bca007f1152b9ae97b5ed7c1181584e0" style="width: 100.0%; height: 100.0%;">NIRANJAN SHALIK WALKE,83 MARODA   MUL  ,9823537472.0</div>`)[0];
+                popup_c1e51080dfbf83322b4fe3f583e45054.setContent(html_bca007f1152b9ae97b5ed7c1181584e0);
+            
+        
+
+        marker_204dfc199b79fa9f0c8a1690811b7a5d.bindPopup(popup_c1e51080dfbf83322b4fe3f583e45054)
+        ;
+
+        
+    
+    
+            var marker_7e5067db5a52afe87e496d0f804e6bee = L.marker(
+                [20.04547877, 79.6914964],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_ca11057a7f35210a8384794a8deada28 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e1bece243e8b219db24b351cce9f268 = $(`<div id="html_7e1bece243e8b219db24b351cce9f268" style="width: 100.0%; height: 100.0%;">NANDU BALAJI KAMDE,SN198 ANTARGOAN PARDWAHI  TADALA ROAD MUL  ,9156344137.0</div>`)[0];
+                popup_ca11057a7f35210a8384794a8deada28.setContent(html_7e1bece243e8b219db24b351cce9f268);
+            
+        
+
+        marker_7e5067db5a52afe87e496d0f804e6bee.bindPopup(popup_ca11057a7f35210a8384794a8deada28)
+        ;
+
+        
+    
+    
+            var marker_6de006f380a4a1870d22dd08139eec34 = L.marker(
+                [20.08153436, 79.67227695],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_438ee97aae39a43b643fa3d13e961918 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1bdeb14466328d63ffefd3b553009a00 = $(`<div id="html_1bdeb14466328d63ffefd3b553009a00" style="width: 100.0%; height: 100.0%;">SURESH GANPAT  MOHURLE,42 KOSAMBI   KOSAMBI  ,9637761361.0</div>`)[0];
+                popup_438ee97aae39a43b643fa3d13e961918.setContent(html_1bdeb14466328d63ffefd3b553009a00);
+            
+        
+
+        marker_6de006f380a4a1870d22dd08139eec34.bindPopup(popup_438ee97aae39a43b643fa3d13e961918)
+        ;
+
+        
+    
+    
+            var marker_e12c5d3aaad8e15d5a9f41ecdba24d06 = L.marker(
+                [20.05876981, 79.70170687],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_a4ee459ef1225a6b0a45a3d378ce6d18 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b0973f424345bb5364b27e16ce6d63e1 = $(`<div id="html_b0973f424345bb5364b27e16ce6d63e1" style="width: 100.0%; height: 100.0%;">LILABAI HARI  BORKUTE,219 MUL   MUL  ,9049106314.0</div>`)[0];
+                popup_a4ee459ef1225a6b0a45a3d378ce6d18.setContent(html_b0973f424345bb5364b27e16ce6d63e1);
+            
+        
+
+        marker_e12c5d3aaad8e15d5a9f41ecdba24d06.bindPopup(popup_a4ee459ef1225a6b0a45a3d378ce6d18)
+        ;
+
+        
+    
+    
+            var marker_06dcd363268b00b974e301ab75b6e65f = L.marker(
+                [20.14599938, 79.65311735],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_d7e66330a7d1c0800df0f160e361c205 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4bef88cd04c0c29f158fadcd1fd28a7 = $(`<div id="html_d4bef88cd04c0c29f158fadcd1fd28a7" style="width: 100.0%; height: 100.0%;">RAJU HARI GEDAM,26 USRALA CHECK   USRALA CHECK  ,8605713052.0</div>`)[0];
+                popup_d7e66330a7d1c0800df0f160e361c205.setContent(html_d4bef88cd04c0c29f158fadcd1fd28a7);
+            
+        
+
+        marker_06dcd363268b00b974e301ab75b6e65f.bindPopup(popup_d7e66330a7d1c0800df0f160e361c205)
+        ;
+
+        
+    
+    
+            var marker_9cf094752357e03ae30fa1816cf0150c = L.marker(
+                [20.11313663, 79.62396796],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_495af729eadd528cf1240f38066867f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91a70b93cb59142eda96f356d293a885 = $(`<div id="html_91a70b93cb59142eda96f356d293a885" style="width: 100.0%; height: 100.0%;">SAHAYAK PASHUDHAN VIKAS ADHIKARI,90 SOMNATH   SOMNATH  ,9765032329.0</div>`)[0];
+                popup_495af729eadd528cf1240f38066867f5.setContent(html_91a70b93cb59142eda96f356d293a885);
+            
+        
+
+        marker_9cf094752357e03ae30fa1816cf0150c.bindPopup(popup_495af729eadd528cf1240f38066867f5)
+        ;
+
+        
+    
+    
+            var marker_53b695944b68988f606bdb358924189f = L.marker(
+                [20.08839299, 79.66807076],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_8b5f9c52901e8ac96dc50126a24cfb3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8664ba2be248e0f5dca297471559347d = $(`<div id="html_8664ba2be248e0f5dca297471559347d" style="width: 100.0%; height: 100.0%;">KISHAN TUKARAM KAMDE,SN 195 KOSMBI   MUL  ,9526634916.0</div>`)[0];
+                popup_8b5f9c52901e8ac96dc50126a24cfb3d.setContent(html_8664ba2be248e0f5dca297471559347d);
+            
+        
+
+        marker_53b695944b68988f606bdb358924189f.bindPopup(popup_8b5f9c52901e8ac96dc50126a24cfb3d)
+        ;
+
+        
+    
+    
+            var marker_31965261121bb4be1d1226e9e2091a1a = L.marker(
+                [20.07870485, 79.66380724],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_719cb36edf3c1eb73831c13fddf9b6a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68fb45be0abd93f5acfbd9feee214cef = $(`<div id="html_68fb45be0abd93f5acfbd9feee214cef" style="width: 100.0%; height: 100.0%;">NAMDEV BABURAO GAVTURE,SN 65/2 CHICHOLI   MUL  ,9765110084.0</div>`)[0];
+                popup_719cb36edf3c1eb73831c13fddf9b6a8.setContent(html_68fb45be0abd93f5acfbd9feee214cef);
+            
+        
+
+        marker_31965261121bb4be1d1226e9e2091a1a.bindPopup(popup_719cb36edf3c1eb73831c13fddf9b6a8)
+        ;
+
+        
+    
+    
+            var marker_f1299e1588d4f754c59d1fd2c52116f8 = L.marker(
+                [20.16391617, 79.65225341],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_5af2041dd2fc58a0463e81a847a2ad8e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_622be6c72d2ba8db9638656404baa2a6 = $(`<div id="html_622be6c72d2ba8db9638656404baa2a6" style="width: 100.0%; height: 100.0%;">GOPAL NARAYANRAO HARNE,82/2 SHIVAPUR CHECK   SHIVAPUR CHECK  ,9823899074.0</div>`)[0];
+                popup_5af2041dd2fc58a0463e81a847a2ad8e.setContent(html_622be6c72d2ba8db9638656404baa2a6);
+            
+        
+
+        marker_f1299e1588d4f754c59d1fd2c52116f8.bindPopup(popup_5af2041dd2fc58a0463e81a847a2ad8e)
+        ;
+
+        
+    
+    
+            var marker_b58a6d3b5cadddb13101018547608035 = L.marker(
+                [20.1097435, 79.65345821],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_1082a86500a09b3d26dd8b30d771a2c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8cb21de3b1f3351b7d60309e931ae92a = $(`<div id="html_8cb21de3b1f3351b7d60309e931ae92a" style="width: 100.0%; height: 100.0%;">DEVANAND  PANDHARINATH WADHAI,308 SOMNATH   SOMNATH  ,7798763007.0</div>`)[0];
+                popup_1082a86500a09b3d26dd8b30d771a2c2.setContent(html_8cb21de3b1f3351b7d60309e931ae92a);
+            
+        
+
+        marker_b58a6d3b5cadddb13101018547608035.bindPopup(popup_1082a86500a09b3d26dd8b30d771a2c2)
+        ;
+
+        
+    
+    
+            var marker_fe678c99737ffc7190c5765b3e83e9f3 = L.marker(
+                [20.09312406, 79.65645737],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_a44227ca8ca18927046984af218c2e5a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f037ef2356beb7cf4897d05822f66b9f = $(`<div id="html_f037ef2356beb7cf4897d05822f66b9f" style="width: 100.0%; height: 100.0%;">SNEHA  VINOD YENURKAR,199 MARODA   MARODA  ,9422509919.0</div>`)[0];
+                popup_a44227ca8ca18927046984af218c2e5a.setContent(html_f037ef2356beb7cf4897d05822f66b9f);
+            
+        
+
+        marker_fe678c99737ffc7190c5765b3e83e9f3.bindPopup(popup_a44227ca8ca18927046984af218c2e5a)
+        ;
+
+        
+    
+    
+            var marker_c8db711970cb69cb1ac32286da56beb8 = L.marker(
+                [20.113343333333, 79.657905],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_872bd3d569ad929f7403c6c518a0bceb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b78131a69ca5b72c76f2ea4d1618a6ba = $(`<div id="html_b78131a69ca5b72c76f2ea4d1618a6ba" style="width: 100.0%; height: 100.0%;">SUMAN VISHWANATH JAWADE,301 SOMNATH    SOMNATH  ,9049752407.0</div>`)[0];
+                popup_872bd3d569ad929f7403c6c518a0bceb.setContent(html_b78131a69ca5b72c76f2ea4d1618a6ba);
+            
+        
+
+        marker_c8db711970cb69cb1ac32286da56beb8.bindPopup(popup_872bd3d569ad929f7403c6c518a0bceb)
+        ;
+
+        
+    
+    
+            var marker_b645c8a02114a66037a5e2aca4f8d1ea = L.marker(
+                [20.0888014, 79.68016734],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_1386d54f75239dc47d5629e844326cee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d92ecd9c7ad34547a6f2e039f21e166 = $(`<div id="html_0d92ecd9c7ad34547a6f2e039f21e166" style="width: 100.0%; height: 100.0%;">GEETA ATMARAMJI CHAHARE,370/1 KOSAMBI   KOSAMBI  ,8390130618.0</div>`)[0];
+                popup_1386d54f75239dc47d5629e844326cee.setContent(html_0d92ecd9c7ad34547a6f2e039f21e166);
+            
+        
+
+        marker_b645c8a02114a66037a5e2aca4f8d1ea.bindPopup(popup_1386d54f75239dc47d5629e844326cee)
+        ;
+
+        
+    
+    
+            var marker_c69659789f9d0e0fac3b1119c83e7025 = L.marker(
+                [20.09063697, 79.67720129],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_bbb25d4318d9e61896db41273484d6fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f3c476ca16eca3e617beb71d66c90a3 = $(`<div id="html_2f3c476ca16eca3e617beb71d66c90a3" style="width: 100.0%; height: 100.0%;">PUNDLIK SHRAWAN  GIRADKAR,294/2 KOSAMBI   KOSAMBI  ,8378063244.0</div>`)[0];
+                popup_bbb25d4318d9e61896db41273484d6fd.setContent(html_2f3c476ca16eca3e617beb71d66c90a3);
+            
+        
+
+        marker_c69659789f9d0e0fac3b1119c83e7025.bindPopup(popup_bbb25d4318d9e61896db41273484d6fd)
+        ;
+
+        
+    
+    
+            var marker_7f2e4abcd3881b3ac8388f575ec03224 = L.marker(
+                [20.08895376, 79.66097212],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_ac9f81bd72fac86a4c5e269af8964112 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1191979b5addce6b56963f1b39aa67be = $(`<div id="html_1191979b5addce6b56963f1b39aa67be" style="width: 100.0%; height: 100.0%;">DIWAKAR RAGHO GANDATE,101 KOSMABI    KIOSMABI  ,9420139300.0</div>`)[0];
+                popup_ac9f81bd72fac86a4c5e269af8964112.setContent(html_1191979b5addce6b56963f1b39aa67be);
+            
+        
+
+        marker_7f2e4abcd3881b3ac8388f575ec03224.bindPopup(popup_ac9f81bd72fac86a4c5e269af8964112)
+        ;
+
+        
+    
+    
+            var marker_c73d44649d3768a089c709cd1da0879c = L.marker(
+                [20.09172109, 79.67125772],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_971b132780707743123e6c76772f58dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc21e1ec5daaeb69a839e2fbd59b2c0e = $(`<div id="html_bc21e1ec5daaeb69a839e2fbd59b2c0e" style="width: 100.0%; height: 100.0%;">WASUDEO  GOPALA MOHURLE,258 KOSMBI   KOSMBI  ,9765758298.0</div>`)[0];
+                popup_971b132780707743123e6c76772f58dc.setContent(html_bc21e1ec5daaeb69a839e2fbd59b2c0e);
+            
+        
+
+        marker_c73d44649d3768a089c709cd1da0879c.bindPopup(popup_971b132780707743123e6c76772f58dc)
+        ;
+
+        
+    
+    
+            var marker_e63230b8f1a5a161882a2e94b108fde7 = L.marker(
+                [20.07577695, 79.66081918],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_6945d66cba7c903b7e102cb919347a22 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eab5d726185c9fca2f27ce66a7f76b7b = $(`<div id="html_eab5d726185c9fca2f27ce66a7f76b7b" style="width: 100.0%; height: 100.0%;">TULSHIDAS LAKSHMAN THAKARE,150 CHICHOLI   CHICHOLI  ,9421880237.0</div>`)[0];
+                popup_6945d66cba7c903b7e102cb919347a22.setContent(html_eab5d726185c9fca2f27ce66a7f76b7b);
+            
+        
+
+        marker_e63230b8f1a5a161882a2e94b108fde7.bindPopup(popup_6945d66cba7c903b7e102cb919347a22)
+        ;
+
+        
+    
+    
+            var marker_799ab69f0439cf650eecb82ac97dbd99 = L.marker(
+                [20.09271439, 79.6622267],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_4d53ddba6791d000ff7b2e4b19dc41e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe781c2955570ae1512f523633d758a2 = $(`<div id="html_fe781c2955570ae1512f523633d758a2" style="width: 100.0%; height: 100.0%;">NARAYAN  KAVADUJI  GIRDAKAR,150 KOSMBI   KOSMBI  ,9421880237.0</div>`)[0];
+                popup_4d53ddba6791d000ff7b2e4b19dc41e8.setContent(html_fe781c2955570ae1512f523633d758a2);
+            
+        
+
+        marker_799ab69f0439cf650eecb82ac97dbd99.bindPopup(popup_4d53ddba6791d000ff7b2e4b19dc41e8)
+        ;
+
+        
+    
+    
+            var marker_78e6804657202fb3d054b1668c7bf92f = L.marker(
+                [20.13862155, 79.67040879],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_137258220fe36086e1d7c03156ff8cef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e2fff2a14f62fbcf4dbd2ee4d3af2669 = $(`<div id="html_e2fff2a14f62fbcf4dbd2ee4d3af2669" style="width: 100.0%; height: 100.0%;">MADHUKAR TUKARAM KANNAKE,168 USRALA CHECK   USRALA CHECK  ,9604049101.0</div>`)[0];
+                popup_137258220fe36086e1d7c03156ff8cef.setContent(html_e2fff2a14f62fbcf4dbd2ee4d3af2669);
+            
+        
+
+        marker_78e6804657202fb3d054b1668c7bf92f.bindPopup(popup_137258220fe36086e1d7c03156ff8cef)
+        ;
+
+        
+    
+    
+            var marker_caca3ecc4f18c8c2af2fd62bdbc2a976 = L.marker(
+                [20.09043943, 79.6697289],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_2372277f384a4a328436455d08662a39 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04edfeef70797b9623076a90d0754726 = $(`<div id="html_04edfeef70797b9623076a90d0754726" style="width: 100.0%; height: 100.0%;">SOMAJI  SHIWAJI SHENDE,430 KOSMBI   KOSMBI  ,9765983671.0</div>`)[0];
+                popup_2372277f384a4a328436455d08662a39.setContent(html_04edfeef70797b9623076a90d0754726);
+            
+        
+
+        marker_caca3ecc4f18c8c2af2fd62bdbc2a976.bindPopup(popup_2372277f384a4a328436455d08662a39)
+        ;
+
+        
+    
+    
+            var marker_eff8cfbb876ab9d19ecb6128b3a1f841 = L.marker(
+                [20.07933348, 79.66027037],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_ea26c756d583448a242d722a1fe0ab08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b34fbed1d0ea9915e746755c464c31c = $(`<div id="html_1b34fbed1d0ea9915e746755c464c31c" style="width: 100.0%; height: 100.0%;">RANJANA  KASHINATH GEDAM,60 CHICHOLI   CHICHOLI  ,8806829459.0</div>`)[0];
+                popup_ea26c756d583448a242d722a1fe0ab08.setContent(html_1b34fbed1d0ea9915e746755c464c31c);
+            
+        
+
+        marker_eff8cfbb876ab9d19ecb6128b3a1f841.bindPopup(popup_ea26c756d583448a242d722a1fe0ab08)
+        ;
+
+        
+    
+    
+            var marker_089e22e7fff5038f95c104ab4b9f33e1 = L.marker(
+                [20.09152617, 79.67128977],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_6f65bc037d2151cc025bf261a416852f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad54eed96dca716ee0e3df4d417d2bff = $(`<div id="html_ad54eed96dca716ee0e3df4d417d2bff" style="width: 100.0%; height: 100.0%;">RAMBHAU GOPALA  MOHURLE,260 KOSAMBI    KOSAMBI  ,8007238490.0</div>`)[0];
+                popup_6f65bc037d2151cc025bf261a416852f.setContent(html_ad54eed96dca716ee0e3df4d417d2bff);
+            
+        
+
+        marker_089e22e7fff5038f95c104ab4b9f33e1.bindPopup(popup_6f65bc037d2151cc025bf261a416852f)
+        ;
+
+        
+    
+    
+            var marker_fb259a48f7634fe29cb7414256cf7a63 = L.marker(
+                [20.05597693, 79.6776325],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_f5cf99ff49cde8a863a7ff68ca8524fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c71ad30edd4dd7cb0a59a8efe25cff30 = $(`<div id="html_c71ad30edd4dd7cb0a59a8efe25cff30" style="width: 100.0%; height: 100.0%;">ANIL  MAROTRAO WAIRAGADE,50 GONDIVIHIRGAO    MUL  ,9370327017.0</div>`)[0];
+                popup_f5cf99ff49cde8a863a7ff68ca8524fe.setContent(html_c71ad30edd4dd7cb0a59a8efe25cff30);
+            
+        
+
+        marker_fb259a48f7634fe29cb7414256cf7a63.bindPopup(popup_f5cf99ff49cde8a863a7ff68ca8524fe)
+        ;
+
+        
+    
+    
+            var marker_e46e60ef6a549e1f9f2a04c4ca57763b = L.marker(
+                [20.14095288, 79.65794563],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_e4a919805a6c8aae67141efc0e159a08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_973d0e2a33e4b02aa860beaa786471be = $(`<div id="html_973d0e2a33e4b02aa860beaa786471be" style="width: 100.0%; height: 100.0%;">SHAMDEO BAPUJI MOHURLE,33/1 USRALA CHECK   USRALA CHECK  ,9545704983.0</div>`)[0];
+                popup_e4a919805a6c8aae67141efc0e159a08.setContent(html_973d0e2a33e4b02aa860beaa786471be);
+            
+        
+
+        marker_e46e60ef6a549e1f9f2a04c4ca57763b.bindPopup(popup_e4a919805a6c8aae67141efc0e159a08)
+        ;
+
+        
+    
+    
+            var marker_0c1e9ff7d74db28166ba64374e5bbb98 = L.marker(
+                [20.10978434, 79.6347175],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_7c87688f7e421c6148780916a7d7ec42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0064cdb3a296d0e30995263d738d9344 = $(`<div id="html_0064cdb3a296d0e30995263d738d9344" style="width: 100.0%; height: 100.0%;">PRADIP WAMANRAO NARELWAR,146 SOMNATH PROJECT    MARODA  ,9405715663.0</div>`)[0];
+                popup_7c87688f7e421c6148780916a7d7ec42.setContent(html_0064cdb3a296d0e30995263d738d9344);
+            
+        
+
+        marker_0c1e9ff7d74db28166ba64374e5bbb98.bindPopup(popup_7c87688f7e421c6148780916a7d7ec42)
+        ;
+
+        
+    
+    
+            var marker_63c1951c5865463822a4a703b7814726 = L.marker(
+                [20.05160925, 79.69565246],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_c030cd56bd6c1a79063eb84a615511d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9af5db608cd672be5950d7969c20f4c7 = $(`<div id="html_9af5db608cd672be5950d7969c20f4c7" style="width: 100.0%; height: 100.0%;">TARABAI  UPASRAO  BUTALE,259/3 ANTARGAON PARDWAHI   MUL  ,8390551562.0</div>`)[0];
+                popup_c030cd56bd6c1a79063eb84a615511d3.setContent(html_9af5db608cd672be5950d7969c20f4c7);
+            
+        
+
+        marker_63c1951c5865463822a4a703b7814726.bindPopup(popup_c030cd56bd6c1a79063eb84a615511d3)
+        ;
+
+        
+    
+    
+            var marker_45a2be5b4e2065f8e9f6480b1ca0201b = L.marker(
+                [20.11646, 79.640366666666],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_3d617e653f5e7b3a4ac1e71d4effba28 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db94cfab2430524643b85bec0cb3cc27 = $(`<div id="html_db94cfab2430524643b85bec0cb3cc27" style="width: 100.0%; height: 100.0%;">AMOL  PULLANAJI BALMAWAR,182 MARODA   MARODA MUL ,7798744996.0</div>`)[0];
+                popup_3d617e653f5e7b3a4ac1e71d4effba28.setContent(html_db94cfab2430524643b85bec0cb3cc27);
+            
+        
+
+        marker_45a2be5b4e2065f8e9f6480b1ca0201b.bindPopup(popup_3d617e653f5e7b3a4ac1e71d4effba28)
+        ;
+
+        
+    
+    
+            var marker_e0a128b31fce73ad6fb1b10c26c4ff73 = L.marker(
+                [20.098495, 79.654308333333],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_33152c0d678325728cd7550163340d18 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7863500b4bbd86aabe0f24ad97801ce = $(`<div id="html_a7863500b4bbd86aabe0f24ad97801ce" style="width: 100.0%; height: 100.0%;">VISHNU CHANDRABHAN KHOBRAGADE,283 MARODA   MARODA MUL ,9637843733.0</div>`)[0];
+                popup_33152c0d678325728cd7550163340d18.setContent(html_a7863500b4bbd86aabe0f24ad97801ce);
+            
+        
+
+        marker_e0a128b31fce73ad6fb1b10c26c4ff73.bindPopup(popup_33152c0d678325728cd7550163340d18)
+        ;
+
+        
+    
+    
+            var marker_85c1862630ae6e3a126f6c2f3f7d42e9 = L.marker(
+                [20.08216584, 79.63723584],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_4fc2c5b96c2bc89094df33f52c14d093 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d2e4a8f149e055d5452ab0e37ff8876 = $(`<div id="html_0d2e4a8f149e055d5452ab0e37ff8876" style="width: 100.0%; height: 100.0%;">SUDHIR DEORAO NAGOSHE,49 KATWAN CHOUCK   KATWAN MUL ,9405460900.0</div>`)[0];
+                popup_4fc2c5b96c2bc89094df33f52c14d093.setContent(html_0d2e4a8f149e055d5452ab0e37ff8876);
+            
+        
+
+        marker_85c1862630ae6e3a126f6c2f3f7d42e9.bindPopup(popup_4fc2c5b96c2bc89094df33f52c14d093)
+        ;
+
+        
+    
+    
+            var marker_3202128ed47af8c5ac03b8fe4a05e46b = L.marker(
+                [20.14594125, 79.66089503],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_99abe5ca27286b7870f0b88bf01b931c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b52447acb5b6efe22cb6815c37ebfc4f = $(`<div id="html_b52447acb5b6efe22cb6815c37ebfc4f" style="width: 100.0%; height: 100.0%;">EKNATH MAHAGU SONULE,148/1 USRALA CHECK    BHADURNI BHADURNI ,9604468414.0</div>`)[0];
+                popup_99abe5ca27286b7870f0b88bf01b931c.setContent(html_b52447acb5b6efe22cb6815c37ebfc4f);
+            
+        
+
+        marker_3202128ed47af8c5ac03b8fe4a05e46b.bindPopup(popup_99abe5ca27286b7870f0b88bf01b931c)
+        ;
+
+        
+    
+    
+            var marker_0b410d3293c34726fb48db0c06a8e2af = L.marker(
+                [20.124698333333, 79.667391666666],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_aba857768bdefac0dceda67b1611ba04 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed865c18135b97203725e13462d31dcf = $(`<div id="html_ed865c18135b97203725e13462d31dcf" style="width: 100.0%; height: 100.0%;">RUSHI KISAN  SHERAKI,300/4 USRALA   USRALA MUL ,9049752407.0</div>`)[0];
+                popup_aba857768bdefac0dceda67b1611ba04.setContent(html_ed865c18135b97203725e13462d31dcf);
+            
+        
+
+        marker_0b410d3293c34726fb48db0c06a8e2af.bindPopup(popup_aba857768bdefac0dceda67b1611ba04)
+        ;
+
+        
+    
+    
+            var marker_1e754a0a8f5b663b72b768e97feb1e18 = L.marker(
+                [20.1469367, 79.64377649],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_b47ff4a25a86e133b01819626a3a65b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_07baec131db1afc5f24f7db861acdf08 = $(`<div id="html_07baec131db1afc5f24f7db861acdf08" style="width: 100.0%; height: 100.0%;">MADHUKAR SADASHIV SHENDE,164/1 BHADURNI   BHADURNI  MUL ,9767976296.0</div>`)[0];
+                popup_b47ff4a25a86e133b01819626a3a65b3.setContent(html_07baec131db1afc5f24f7db861acdf08);
+            
+        
+
+        marker_1e754a0a8f5b663b72b768e97feb1e18.bindPopup(popup_b47ff4a25a86e133b01819626a3a65b3)
+        ;
+
+        
+    
+    
+            var marker_7edbb6ac60f10b4a8c5f29fed2df7b9b = L.marker(
+                [20.1456257, 79.6507005],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_2dfe004094f4f1b3948f9ca4c543b479 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30a8bfde8cc7a999f6d0bf5deed6592e = $(`<div id="html_30a8bfde8cc7a999f6d0bf5deed6592e" style="width: 100.0%; height: 100.0%;">DADAJI SADASHIV SHENDE,23 SHIVAPUR  CHECK    BHADURNI MUL ,9765764063.0</div>`)[0];
+                popup_2dfe004094f4f1b3948f9ca4c543b479.setContent(html_30a8bfde8cc7a999f6d0bf5deed6592e);
+            
+        
+
+        marker_7edbb6ac60f10b4a8c5f29fed2df7b9b.bindPopup(popup_2dfe004094f4f1b3948f9ca4c543b479)
+        ;
+
+        
+    
+    
+            var marker_b61d7a342c964e9b2336e2a11361c0d7 = L.marker(
+                [19.97237687, 79.6305697],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_b6a18ada840595a1ac262e443b5cc484 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ecbe696c17527544dfb6fb874138218 = $(`<div id="html_6ecbe696c17527544dfb6fb874138218" style="width: 100.0%; height: 100.0%;">SHANKAR SHIWA KULMETHE,SN 207 NALESHWAR   NALESHWAR  ,8805125058.0</div>`)[0];
+                popup_b6a18ada840595a1ac262e443b5cc484.setContent(html_6ecbe696c17527544dfb6fb874138218);
+            
+        
+
+        marker_b61d7a342c964e9b2336e2a11361c0d7.bindPopup(popup_b6a18ada840595a1ac262e443b5cc484)
+        ;
+
+        
+    
+    
+            var marker_9cf18e4175663492501b237a9a0d053f = L.marker(
+                [20.16446113, 79.69395421],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_cf3cf7749f4aa21817370b69ac141cf3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f508deb1b76a255efe78c1c84e2a573e = $(`<div id="html_f508deb1b76a255efe78c1c84e2a573e" style="width: 100.0%; height: 100.0%;">RAMESH SAKHARAM PAL,SN 75 GANGALWADI   CHIKHLI  ,8956717673.0</div>`)[0];
+                popup_cf3cf7749f4aa21817370b69ac141cf3.setContent(html_f508deb1b76a255efe78c1c84e2a573e);
+            
+        
+
+        marker_9cf18e4175663492501b237a9a0d053f.bindPopup(popup_cf3cf7749f4aa21817370b69ac141cf3)
+        ;
+
+        
+    
+    
+            var marker_365cd57a8d0941a94796ed0747d018a5 = L.marker(
+                [20.18547766, 79.6854194],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_622b0ab5d97debc8472920f3d1a447d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b57c8839062dc9313acc2316aca20939 = $(`<div id="html_b57c8839062dc9313acc2316aca20939" style="width: 100.0%; height: 100.0%;">PARVATABAI SHANKARRAO KAWTHEKAR,583 RAJOLI   RAJOLI  ,9503371004.0</div>`)[0];
+                popup_622b0ab5d97debc8472920f3d1a447d0.setContent(html_b57c8839062dc9313acc2316aca20939);
+            
+        
+
+        marker_365cd57a8d0941a94796ed0747d018a5.bindPopup(popup_622b0ab5d97debc8472920f3d1a447d0)
+        ;
+
+        
+    
+    
+            var marker_51001cf482141c2b28d9706aa39b7834 = L.marker(
+                [19.96511525, 79.67034198],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_5ae2d2e47731cf5ac03c4a0005f81fd2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95b2c36c4e18ef1f595e04b7541f0731 = $(`<div id="html_95b2c36c4e18ef1f595e04b7541f0731" style="width: 100.0%; height: 100.0%;">KESHAO PARSHURAM JUARE,SN 111 CHEKBEMBAL   CHEKBEMBAL  ,8605349262.0</div>`)[0];
+                popup_5ae2d2e47731cf5ac03c4a0005f81fd2.setContent(html_95b2c36c4e18ef1f595e04b7541f0731);
+            
+        
+
+        marker_51001cf482141c2b28d9706aa39b7834.bindPopup(popup_5ae2d2e47731cf5ac03c4a0005f81fd2)
+        ;
+
+        
+    
+    
+            var marker_6b88355331b11adbc62f92b774047a70 = L.marker(
+                [20.01838222, 79.65979167],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_8d5def4a23e8f1691ac01c1257a6cb7d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd4da1ddb19a403cc34080b8a0a95811 = $(`<div id="html_fd4da1ddb19a403cc34080b8a0a95811" style="width: 100.0%; height: 100.0%;">SATYAWAN PATRUJI BURANDE,298 CHICHALA   CHICHALA  ,9765806592.0</div>`)[0];
+                popup_8d5def4a23e8f1691ac01c1257a6cb7d.setContent(html_fd4da1ddb19a403cc34080b8a0a95811);
+            
+        
+
+        marker_6b88355331b11adbc62f92b774047a70.bindPopup(popup_8d5def4a23e8f1691ac01c1257a6cb7d)
+        ;
+
+        
+    
+    
+            var marker_5cb92f33354af0de8109c1710a7b4dde = L.marker(
+                [19.9896046, 79.61564795],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_34ead8e1b099af53142c8e0e2b00b9cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff603137d3f87ac307c6b9e1b4c1f39b = $(`<div id="html_ff603137d3f87ac307c6b9e1b4c1f39b" style="width: 100.0%; height: 100.0%;">RUKHMABAI NAMDEO KHOBRAGADE,SN 54/2 KHALWASPETH   KHALWASPETH  ,8805849109.0</div>`)[0];
+                popup_34ead8e1b099af53142c8e0e2b00b9cd.setContent(html_ff603137d3f87ac307c6b9e1b4c1f39b);
+            
+        
+
+        marker_5cb92f33354af0de8109c1710a7b4dde.bindPopup(popup_34ead8e1b099af53142c8e0e2b00b9cd)
+        ;
+
+        
+    
+    
+            var marker_3ea25452468c4b3eca68ec0525e4feb0 = L.marker(
+                [20.11065039, 79.67366098],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_b448c1bac65f1540b5ed33894ca218bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b745276d3462cc4ddfed917773f303e1 = $(`<div id="html_b745276d3462cc4ddfed917773f303e1" style="width: 100.0%; height: 100.0%;">PANDURANG ZUNGAJI PAL,SN-43/2 MORWAHI   MORWAHI  ,9673035410.0</div>`)[0];
+                popup_b448c1bac65f1540b5ed33894ca218bc.setContent(html_b745276d3462cc4ddfed917773f303e1);
+            
+        
+
+        marker_3ea25452468c4b3eca68ec0525e4feb0.bindPopup(popup_b448c1bac65f1540b5ed33894ca218bc)
+        ;
+
+        
+    
+    
+            var marker_5a9894bd9dfe2a91d4ebfd03ec5099f7 = L.marker(
+                [19.984038, 79.6928755],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_1e595dedceb51e3cca214a6f37207b8b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25de89a978333aafed6da9cbddaac42b = $(`<div id="html_25de89a978333aafed6da9cbddaac42b" style="width: 100.0%; height: 100.0%;">MALTABAI BANDU KANDIKURWAR,SN-496 BHEJGAON   BHEJGAON  ,9561571896.0</div>`)[0];
+                popup_1e595dedceb51e3cca214a6f37207b8b.setContent(html_25de89a978333aafed6da9cbddaac42b);
+            
+        
+
+        marker_5a9894bd9dfe2a91d4ebfd03ec5099f7.bindPopup(popup_1e595dedceb51e3cca214a6f37207b8b)
+        ;
+
+        
+    
+    
+            var marker_701ae07a4d5b658760f550823fa1815e = L.marker(
+                [19.98395113, 79.57622066],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_f30ce747b50373f75bf3b0eeda807020 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d0a7aba85628bb67341113e94d6017e8 = $(`<div id="html_d0a7aba85628bb67341113e94d6017e8" style="width: 100.0%; height: 100.0%;">SHRIKANT DAMODHARRAO SAMARTH,SN 309 KELZER   KELZER  ,7588772905.0</div>`)[0];
+                popup_f30ce747b50373f75bf3b0eeda807020.setContent(html_d0a7aba85628bb67341113e94d6017e8);
+            
+        
+
+        marker_701ae07a4d5b658760f550823fa1815e.bindPopup(popup_f30ce747b50373f75bf3b0eeda807020)
+        ;
+
+        
+    
+    
+            var marker_631e07702f2a1a988ab70f03b4bcf2af = L.marker(
+                [20.14361547, 79.6847797],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_eed013b2b6414160cf67591b9c07cc7a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e117ae0d7280a140f5e51dd4201df163 = $(`<div id="html_e117ae0d7280a140f5e51dd4201df163" style="width: 100.0%; height: 100.0%;">HARIDAS VISHWANATH RAUT,SN 70/1 CHIKHLI   CHIKHLI  ,8975458937.0</div>`)[0];
+                popup_eed013b2b6414160cf67591b9c07cc7a.setContent(html_e117ae0d7280a140f5e51dd4201df163);
+            
+        
+
+        marker_631e07702f2a1a988ab70f03b4bcf2af.bindPopup(popup_eed013b2b6414160cf67591b9c07cc7a)
+        ;
+
+        
+    
+    
+            var marker_c9681177dd3669eceac5c473cf85497f = L.marker(
+                [20.18165397, 79.7075409],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_93ce96553b293643bbb4899c76af16dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_150147d648048f5c22a92285f641cdc7 = $(`<div id="html_150147d648048f5c22a92285f641cdc7" style="width: 100.0%; height: 100.0%;">KASHINATH BUDHAJI GEDAM,SN-266 NAVEGAON   NAVEGAON  ,9923353736.0</div>`)[0];
+                popup_93ce96553b293643bbb4899c76af16dd.setContent(html_150147d648048f5c22a92285f641cdc7);
+            
+        
+
+        marker_c9681177dd3669eceac5c473cf85497f.bindPopup(popup_93ce96553b293643bbb4899c76af16dd)
+        ;
+
+        
+    
+    
+            var marker_272b60b5a94440c3c520233cc6e8bc7a = L.marker(
+                [20.14644066, 79.6772091],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_5bd875ad3f1dcc244e2f121a59efec6b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_150a64e2962d17bfc92beec85e6c42a9 = $(`<div id="html_150a64e2962d17bfc92beec85e6c42a9" style="width: 100.0%; height: 100.0%;">KEWALRAM WAMAN GHOGARE,SN-509 CHIKHALI   CHIKHALI  ,8805844302.0</div>`)[0];
+                popup_5bd875ad3f1dcc244e2f121a59efec6b.setContent(html_150a64e2962d17bfc92beec85e6c42a9);
+            
+        
+
+        marker_272b60b5a94440c3c520233cc6e8bc7a.bindPopup(popup_5bd875ad3f1dcc244e2f121a59efec6b)
+        ;
+
+        
+    
+    
+            var marker_ccfe29b09a628b3b3b3b93a00188d530 = L.marker(
+                [20.14696644, 79.69972404],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_ceee244d1e0f624c1dfe6dcea964af12 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7518c310b8e850cf5ea06c1f6aec5e1 = $(`<div id="html_c7518c310b8e850cf5ea06c1f6aec5e1" style="width: 100.0%; height: 100.0%;">VISHWANAH DEWAJI KAKADE,SN-60 CHIKHALI   CHIKHALI  ,9764115724.0</div>`)[0];
+                popup_ceee244d1e0f624c1dfe6dcea964af12.setContent(html_c7518c310b8e850cf5ea06c1f6aec5e1);
+            
+        
+
+        marker_ccfe29b09a628b3b3b3b93a00188d530.bindPopup(popup_ceee244d1e0f624c1dfe6dcea964af12)
+        ;
+
+        
+    
+    
+            var marker_1407a227f156f1873f5b2ccbf7a56d4e = L.marker(
+                [20.14494267, 79.68522674],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_62b39e3b000d6254a3abe824cd05409e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cca703ef2bbed591379027796308d63d = $(`<div id="html_cca703ef2bbed591379027796308d63d" style="width: 100.0%; height: 100.0%;">JIMNA AADKU KADASKAR,SN-33 CHIKHALI   CHIKHALI  ,9423241882.0</div>`)[0];
+                popup_62b39e3b000d6254a3abe824cd05409e.setContent(html_cca703ef2bbed591379027796308d63d);
+            
+        
+
+        marker_1407a227f156f1873f5b2ccbf7a56d4e.bindPopup(popup_62b39e3b000d6254a3abe824cd05409e)
+        ;
+
+        
+    
+    
+            var marker_5c4b997e3352f75277487f218b879a43 = L.marker(
+                [20.1383117, 79.69614468],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_d2ad6d6a50b6155ca0913bbfa455a8ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b302d502fb6c907b98f6d2bc6bf6fcce = $(`<div id="html_b302d502fb6c907b98f6d2bc6bf6fcce" style="width: 100.0%; height: 100.0%;">VINAYAK PANDURANG KADASKAR,16/1 CHKHALI   CHIKHALI  ,8378020935.0</div>`)[0];
+                popup_d2ad6d6a50b6155ca0913bbfa455a8ff.setContent(html_b302d502fb6c907b98f6d2bc6bf6fcce);
+            
+        
+
+        marker_5c4b997e3352f75277487f218b879a43.bindPopup(popup_d2ad6d6a50b6155ca0913bbfa455a8ff)
+        ;
+
+        
+    
+    
+            var marker_e95e797d6ecc78c439ead17e7c3e20bf = L.marker(
+                [20.00848223, 79.62368103],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_9a6193c4262b142c678b7da2813becf2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b984acd73066d90d8fb718418c236d8a = $(`<div id="html_b984acd73066d90d8fb718418c236d8a" style="width: 100.0%; height: 100.0%;">TULSHIRAM BHIWA GURNULE,SN-711 CHIROLI   CHIROLI  ,8378800967.0</div>`)[0];
+                popup_9a6193c4262b142c678b7da2813becf2.setContent(html_b984acd73066d90d8fb718418c236d8a);
+            
+        
+
+        marker_e95e797d6ecc78c439ead17e7c3e20bf.bindPopup(popup_9a6193c4262b142c678b7da2813becf2)
+        ;
+
+        
+    
+    
+            var marker_feaea86fb8961cac11224cfd78b62d24 = L.marker(
+                [20.1831609, 79.71970388],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_b152ec11ee06771a94501b217b499b8d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e20dfe009b2a35abe87bc242a229e22 = $(`<div id="html_4e20dfe009b2a35abe87bc242a229e22" style="width: 100.0%; height: 100.0%;">SULOCHANA SHANKAR THIKRE,SN-16 RAJOLI   RAJOLI  ,9545310123.0</div>`)[0];
+                popup_b152ec11ee06771a94501b217b499b8d.setContent(html_4e20dfe009b2a35abe87bc242a229e22);
+            
+        
+
+        marker_feaea86fb8961cac11224cfd78b62d24.bindPopup(popup_b152ec11ee06771a94501b217b499b8d)
+        ;
+
+        
+    
+    
+            var marker_23f64a47d5680ca5192790cadca99592 = L.marker(
+                [20.18511593, 79.71556953],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_f2d01953b15647bf0b462bf269a25c1c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60cde2c57a771a1401dac948635caefe = $(`<div id="html_60cde2c57a771a1401dac948635caefe" style="width: 100.0%; height: 100.0%;">SARANG SUNIL GUJJANWAR,SN-276 RAJOLI   RAJOLI  ,9545310123.0</div>`)[0];
+                popup_f2d01953b15647bf0b462bf269a25c1c.setContent(html_60cde2c57a771a1401dac948635caefe);
+            
+        
+
+        marker_23f64a47d5680ca5192790cadca99592.bindPopup(popup_f2d01953b15647bf0b462bf269a25c1c)
+        ;
+
+        
+    
+    
+            var marker_4487144454c7067796472768cdce4698 = L.marker(
+                [20.18317339, 79.714736],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_8964696a8202754ef263293d2cf33905 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd83e1d74a95946edc4693391dbc02f7 = $(`<div id="html_fd83e1d74a95946edc4693391dbc02f7" style="width: 100.0%; height: 100.0%;">RAGHUNATH BUDHJI GEDAM,SN-13 ALEWAHI/NAVEGAON   ALEWAHI/NAVEGAON  ,9545310123.0</div>`)[0];
+                popup_8964696a8202754ef263293d2cf33905.setContent(html_fd83e1d74a95946edc4693391dbc02f7);
+            
+        
+
+        marker_4487144454c7067796472768cdce4698.bindPopup(popup_8964696a8202754ef263293d2cf33905)
+        ;
+
+        
+    
+    
+            var marker_3fafcfe560c022de043a8ef20a2776d0 = L.marker(
+                [19.97208215, 79.68169962],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_4c56791cfc1299d36ebfb53ac6118beb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_850e0a667d9ebb1c2fcc95816865a5c5 = $(`<div id="html_850e0a667d9ebb1c2fcc95816865a5c5" style="width: 100.0%; height: 100.0%;">JAGANNATH NAGOJI CHAWRE,SN-741 YERGAON   YERGAON  ,9145043410.0</div>`)[0];
+                popup_4c56791cfc1299d36ebfb53ac6118beb.setContent(html_850e0a667d9ebb1c2fcc95816865a5c5);
+            
+        
+
+        marker_3fafcfe560c022de043a8ef20a2776d0.bindPopup(popup_4c56791cfc1299d36ebfb53ac6118beb)
+        ;
+
+        
+    
+    
+            var marker_03ccea5b44e7ce5fa870a9425c355c14 = L.marker(
+                [20.19999185, 79.69850912],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_c04da016281fe717f1ab428f4674b695 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2bccb4802f6f15b8b9516a959369782 = $(`<div id="html_d2bccb4802f6f15b8b9516a959369782" style="width: 100.0%; height: 100.0%;">DHIRAJ DILIPRAO SHENDE,SN-138 RAJOLI   RAJOLI  ,8805930030.0</div>`)[0];
+                popup_c04da016281fe717f1ab428f4674b695.setContent(html_d2bccb4802f6f15b8b9516a959369782);
+            
+        
+
+        marker_03ccea5b44e7ce5fa870a9425c355c14.bindPopup(popup_c04da016281fe717f1ab428f4674b695)
+        ;
+
+        
+    
+    
+            var marker_c72b4c327d89f20275e7d2664fd04e43 = L.marker(
+                [20.14687011, 79.69364423],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_e6001546a290064990e96334d5ace3ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7e549224d17979258aef152ccdb08db = $(`<div id="html_e7e549224d17979258aef152ccdb08db" style="width: 100.0%; height: 100.0%;">DOPAJI WASUDEO KADASKAR,SN-59 CHIKHALI   CHIKHALI  ,9923225873.0</div>`)[0];
+                popup_e6001546a290064990e96334d5ace3ca.setContent(html_e7e549224d17979258aef152ccdb08db);
+            
+        
+
+        marker_c72b4c327d89f20275e7d2664fd04e43.bindPopup(popup_e6001546a290064990e96334d5ace3ca)
+        ;
+
+        
+    
+    
+            var marker_5c2dcd980f806fde51f400ed3568245a = L.marker(
+                [19.95365273, 79.63635862],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_90af2dbeade11a9b6004dbe3b25ab962 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d443eef3c0d72e6c29980cc0fed931b = $(`<div id="html_9d443eef3c0d72e6c29980cc0fed931b" style="width: 100.0%; height: 100.0%;">SHANKAR VITTHAL CHICHAGHARE,SN-27 NALESHWAR   NALESHWAR  ,9545340285.0</div>`)[0];
+                popup_90af2dbeade11a9b6004dbe3b25ab962.setContent(html_9d443eef3c0d72e6c29980cc0fed931b);
+            
+        
+
+        marker_5c2dcd980f806fde51f400ed3568245a.bindPopup(popup_90af2dbeade11a9b6004dbe3b25ab962)
+        ;
+
+        
+    
+    
+            var marker_fde95fd9fbe9a08d5010e169f9b8d032 = L.marker(
+                [19.95365136, 79.6363366],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_d7db62cf5bae61de0ff31760e20b9426 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29e65907c1b9fb505c38df7e54eef076 = $(`<div id="html_29e65907c1b9fb505c38df7e54eef076" style="width: 100.0%; height: 100.0%;">BHAYYAJI HIRAMAN GEDAM,SN-77 NALESHWAR   NALESHWAR  ,8605274117.0</div>`)[0];
+                popup_d7db62cf5bae61de0ff31760e20b9426.setContent(html_29e65907c1b9fb505c38df7e54eef076);
+            
+        
+
+        marker_fde95fd9fbe9a08d5010e169f9b8d032.bindPopup(popup_d7db62cf5bae61de0ff31760e20b9426)
+        ;
+
+        
+    
+    
+            var marker_b1e82062967ab4eb6bb79ec153758d62 = L.marker(
+                [20.16330156, 79.69603332],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_f385c4db215b6bb5848e9f5125e2b0a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b65a0c6715442b84b4199ffb0e122f31 = $(`<div id="html_b65a0c6715442b84b4199ffb0e122f31" style="width: 100.0%; height: 100.0%;">LINGAJI SHRIHARI WAKUDKAR,SN-61 CHIKHALI   CHIKHALI  ,9850631116.0</div>`)[0];
+                popup_f385c4db215b6bb5848e9f5125e2b0a2.setContent(html_b65a0c6715442b84b4199ffb0e122f31);
+            
+        
+
+        marker_b1e82062967ab4eb6bb79ec153758d62.bindPopup(popup_f385c4db215b6bb5848e9f5125e2b0a2)
+        ;
+
+        
+    
+    
+            var marker_e844057a75389f49a5fcba83d526e8ad = L.marker(
+                [20.15221983, 79.67543089],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_97d9b8737d58beabff9403fb50b23a10 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4e87783f685cad30af50751b423c274 = $(`<div id="html_c4e87783f685cad30af50751b423c274" style="width: 100.0%; height: 100.0%;">MADHUKAR DHARMAJI MUNGMODE,SN-438 DONGARGAON   DONGARGAON  ,9158586636.0</div>`)[0];
+                popup_97d9b8737d58beabff9403fb50b23a10.setContent(html_c4e87783f685cad30af50751b423c274);
+            
+        
+
+        marker_e844057a75389f49a5fcba83d526e8ad.bindPopup(popup_97d9b8737d58beabff9403fb50b23a10)
+        ;
+
+        
+    
+    
+            var marker_af9d4652d5af02c32082dad77dc3b73d = L.marker(
+                [19.99047601, 79.5700744],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_e835d99c5f25c302ce22be2e15664188 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_901e5e6e34fee29e2ebf20ca6f2b315e = $(`<div id="html_901e5e6e34fee29e2ebf20ca6f2b315e" style="width: 100.0%; height: 100.0%;">PRAVIN BABAJI GAOTURE,SN-221 KELZAR   KELZAR  ,9767368859.0</div>`)[0];
+                popup_e835d99c5f25c302ce22be2e15664188.setContent(html_901e5e6e34fee29e2ebf20ca6f2b315e);
+            
+        
+
+        marker_af9d4652d5af02c32082dad77dc3b73d.bindPopup(popup_e835d99c5f25c302ce22be2e15664188)
+        ;
+
+        
+    
+    
+            var marker_bf202aa4b01264d06307728d40bef628 = L.marker(
+                [19.98870627, 79.57371614],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_9d78829e6190ff616a01b8ec4ba3cba9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_20bd389d65981de92ba1c614523831a6 = $(`<div id="html_20bd389d65981de92ba1c614523831a6" style="width: 100.0%; height: 100.0%;">VITHOBA  MAHARUJI MOHURLE,SN 238 KELZER   KELZER  ,8605088584.0</div>`)[0];
+                popup_9d78829e6190ff616a01b8ec4ba3cba9.setContent(html_20bd389d65981de92ba1c614523831a6);
+            
+        
+
+        marker_bf202aa4b01264d06307728d40bef628.bindPopup(popup_9d78829e6190ff616a01b8ec4ba3cba9)
+        ;
+
+        
+    
+    
+            var marker_78bf73059eff9c683c6d0ad6ae35af8c = L.marker(
+                [20.18290447, 79.69630824],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_100a0005f5d7c90436fe40d4e06a90b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95846912d3518c37bd4d20b592704136 = $(`<div id="html_95846912d3518c37bd4d20b592704136" style="width: 100.0%; height: 100.0%;">HITESH CHANDRABHAN SHENDE,SN-128 RAJOLI   RAJOLI  ,9637726630.0</div>`)[0];
+                popup_100a0005f5d7c90436fe40d4e06a90b0.setContent(html_95846912d3518c37bd4d20b592704136);
+            
+        
+
+        marker_78bf73059eff9c683c6d0ad6ae35af8c.bindPopup(popup_100a0005f5d7c90436fe40d4e06a90b0)
+        ;
+
+        
+    
+    
+            var marker_b925164f1bbbfddfe6ed2cd204f530f6 = L.marker(
+                [20.10962936, 79.68259935],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_82944de7f244dcc3f82cfaa8034d4bee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d6131d1015ab53f31f6faa35767eb6b = $(`<div id="html_4d6131d1015ab53f31f6faa35767eb6b" style="width: 100.0%; height: 100.0%;">GURUDAS DHONDUJI GOHANE,SN-64 MORWAHI CHAK   MORWAHI CHAK  ,9422191798.0</div>`)[0];
+                popup_82944de7f244dcc3f82cfaa8034d4bee.setContent(html_4d6131d1015ab53f31f6faa35767eb6b);
+            
+        
+
+        marker_b925164f1bbbfddfe6ed2cd204f530f6.bindPopup(popup_82944de7f244dcc3f82cfaa8034d4bee)
+        ;
+
+        
+    
+    
+            var marker_44e2cee79855f572c339144ef3b37074 = L.marker(
+                [20.08789113, 79.73184623],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_0aeff4f321f7027fb54c304a9afbc834 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9469f391658727b4e865274eb9c192e = $(`<div id="html_c9469f391658727b4e865274eb9c192e" style="width: 100.0%; height: 100.0%;">RAJESH DNYANOBA AGHAV,SN-252 TEKADI   TEKADI  ,7387734980.0</div>`)[0];
+                popup_0aeff4f321f7027fb54c304a9afbc834.setContent(html_c9469f391658727b4e865274eb9c192e);
+            
+        
+
+        marker_44e2cee79855f572c339144ef3b37074.bindPopup(popup_0aeff4f321f7027fb54c304a9afbc834)
+        ;
+
+        
+    
+    
+            var marker_adda7d6d452cc5ed564facf71cd3192c = L.marker(
+                [20.14701344, 79.69034565],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_6a6b929828c0269526d593127bbbda0a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_72b061f010464d78b427097b035fa407 = $(`<div id="html_72b061f010464d78b427097b035fa407" style="width: 100.0%; height: 100.0%;">DOMA RAMJI KADASKAR,SN 77 CHIKHLI   CHIKHLI  ,9637213934.0</div>`)[0];
+                popup_6a6b929828c0269526d593127bbbda0a.setContent(html_72b061f010464d78b427097b035fa407);
+            
+        
+
+        marker_adda7d6d452cc5ed564facf71cd3192c.bindPopup(popup_6a6b929828c0269526d593127bbbda0a)
+        ;
+
+        
+    
+    
+            var marker_a7ea3c44aed52e692aba15d1668e2a2e = L.marker(
+                [20.109486579895, 79.680495858192],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_4697f9bb7e3d07c0fa22243df6817bda = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_82eee40bbd3e5b36398d078ba2716d05 = $(`<div id="html_82eee40bbd3e5b36398d078ba2716d05" style="width: 100.0%; height: 100.0%;">ANIL SHAMRAO THERKAR,SN 130/1 MORWAHI   MORWAHI  ,9637409322.0</div>`)[0];
+                popup_4697f9bb7e3d07c0fa22243df6817bda.setContent(html_82eee40bbd3e5b36398d078ba2716d05);
+            
+        
+
+        marker_a7ea3c44aed52e692aba15d1668e2a2e.bindPopup(popup_4697f9bb7e3d07c0fa22243df6817bda)
+        ;
+
+        
+    
+    
+            var marker_d5268cab235ead61335a21635ccf827f = L.marker(
+                [20.10963172, 79.68085705],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_9ee9efbf4e904e8a39b209dba0c12646 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b0014deae5708adf5fa6dc0388dbd812 = $(`<div id="html_b0014deae5708adf5fa6dc0388dbd812" style="width: 100.0%; height: 100.0%;">GOPALA SHANKAR WAKUDKAR,SN 151 MORWAHI   MORWAHI  ,9403875020.0</div>`)[0];
+                popup_9ee9efbf4e904e8a39b209dba0c12646.setContent(html_b0014deae5708adf5fa6dc0388dbd812);
+            
+        
+
+        marker_d5268cab235ead61335a21635ccf827f.bindPopup(popup_9ee9efbf4e904e8a39b209dba0c12646)
+        ;
+
+        
+    
+    
+            var marker_c8e738338458968665cebec5d22bd490 = L.marker(
+                [19.9611694, 79.60610484],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_22fd9440026123f1b37d71832c624554 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef3be5f675ca788869948be5704c7095 = $(`<div id="html_ef3be5f675ca788869948be5704c7095" style="width: 100.0%; height: 100.0%;">BABURAO GAJANAN GAJEWAR,SN 1/2 SUSHI   SUSHI  ,9763344147.0</div>`)[0];
+                popup_22fd9440026123f1b37d71832c624554.setContent(html_ef3be5f675ca788869948be5704c7095);
+            
+        
+
+        marker_c8e738338458968665cebec5d22bd490.bindPopup(popup_22fd9440026123f1b37d71832c624554)
+        ;
+
+        
+    
+    
+            var marker_2bbc5ec3db2e6d7d324da006127f0b2e = L.marker(
+                [19.98310431, 79.57016649],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_4d828ea4e941c04df1edc2c8d293ac9c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a2100d7f7f3ff59273d4ddb7360477ef = $(`<div id="html_a2100d7f7f3ff59273d4ddb7360477ef" style="width: 100.0%; height: 100.0%;">BALU BHAGWAN GURNULE,SN-126 KELZAR   KELZAR  ,8698008053.0</div>`)[0];
+                popup_4d828ea4e941c04df1edc2c8d293ac9c.setContent(html_a2100d7f7f3ff59273d4ddb7360477ef);
+            
+        
+
+        marker_2bbc5ec3db2e6d7d324da006127f0b2e.bindPopup(popup_4d828ea4e941c04df1edc2c8d293ac9c)
+        ;
+
+        
+    
+    
+            var marker_97d3f44a53d41c6dcee34aee8cee7821 = L.marker(
+                [20.00797412, 79.68380036],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_2eeda6b785e38681251db3a137eb83e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66b80163fb0ced9e5ad1ba0387a9a9d5 = $(`<div id="html_66b80163fb0ced9e5ad1ba0387a9a9d5" style="width: 100.0%; height: 100.0%;">PRAKASH MADHAV SOMANKAR,SN-116 HALDI   HALDI  ,9637939839.0</div>`)[0];
+                popup_2eeda6b785e38681251db3a137eb83e8.setContent(html_66b80163fb0ced9e5ad1ba0387a9a9d5);
+            
+        
+
+        marker_97d3f44a53d41c6dcee34aee8cee7821.bindPopup(popup_2eeda6b785e38681251db3a137eb83e8)
+        ;
+
+        
+    
+    
+            var marker_1d76315ba6a15543933307e9a626ee5a = L.marker(
+                [19.95255406, 79.61782389],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_4dcf3bb897cf25fc800ca6f968cd09a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_909723969a6e5d5d253e393334a204b9 = $(`<div id="html_909723969a6e5d5d253e393334a204b9" style="width: 100.0%; height: 100.0%;">KAWDU BABAJI MOHURLE,SN 17 SUSHI   SUSHI  ,8975386016.0</div>`)[0];
+                popup_4dcf3bb897cf25fc800ca6f968cd09a9.setContent(html_909723969a6e5d5d253e393334a204b9);
+            
+        
+
+        marker_1d76315ba6a15543933307e9a626ee5a.bindPopup(popup_4dcf3bb897cf25fc800ca6f968cd09a9)
+        ;
+
+        
+    
+    
+            var marker_48fd3af24b2adc48947d8fbab99515b2 = L.marker(
+                [20.15337303, 79.677623],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_d355f2a227d0f0a4832a44dc6d012e2c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_929b993a553596d0b17b8cfe8fc0e5a8 = $(`<div id="html_929b993a553596d0b17b8cfe8fc0e5a8" style="width: 100.0%; height: 100.0%;">ASHOK SHRAWAN WAKUDKAR,SN-536 CHIKHALI   CHIKHALI  ,9623241882.0</div>`)[0];
+                popup_d355f2a227d0f0a4832a44dc6d012e2c.setContent(html_929b993a553596d0b17b8cfe8fc0e5a8);
+            
+        
+
+        marker_48fd3af24b2adc48947d8fbab99515b2.bindPopup(popup_d355f2a227d0f0a4832a44dc6d012e2c)
+        ;
+
+        
+    
+    
+            var marker_2e39b7efc3d3c0ce20aa569085d3390f = L.marker(
+                [19.95257441, 79.60220704],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_eb638473edbbbb8743fcb552450e1657 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6a22e8375cf40db1c5c3adc8c96dce7 = $(`<div id="html_b6a22e8375cf40db1c5c3adc8c96dce7" style="width: 100.0%; height: 100.0%;">LALITA NAMDEO BARSAGADE,SN 10/1 DABGAON    DABGAON  ,8805882927.0</div>`)[0];
+                popup_eb638473edbbbb8743fcb552450e1657.setContent(html_b6a22e8375cf40db1c5c3adc8c96dce7);
+            
+        
+
+        marker_2e39b7efc3d3c0ce20aa569085d3390f.bindPopup(popup_eb638473edbbbb8743fcb552450e1657)
+        ;
+
+        
+    
+    
+            var marker_e348e988fa5a63f52292fb40a0c73f5a = L.marker(
+                [20.09275496006, 79.736194610595],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_333551fde41fba9bc8f5217923d3a7a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd3212a7d11f91b03d7c8183089103cc = $(`<div id="html_bd3212a7d11f91b03d7c8183089103cc" style="width: 100.0%; height: 100.0%;">SAKHUBAI DOMAJI JARATE,SN-317 TEKADI   TEKADI  ,7769884938.0</div>`)[0];
+                popup_333551fde41fba9bc8f5217923d3a7a8.setContent(html_bd3212a7d11f91b03d7c8183089103cc);
+            
+        
+
+        marker_e348e988fa5a63f52292fb40a0c73f5a.bindPopup(popup_333551fde41fba9bc8f5217923d3a7a8)
+        ;
+
+        
+    
+    
+            var marker_17bbd4965ea55c9449dd611e9bb5e6c8 = L.marker(
+                [20.03720196, 79.59974463],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_b30343833b80aa092e88943b60cd9892 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5eff4d62712b2495501f200fbe0c14d9 = $(`<div id="html_5eff4d62712b2495501f200fbe0c14d9" style="width: 100.0%; height: 100.0%;">MAYA SURESHRAO KOSRE,SN-107 JANALA   JANALA  ,9075905778.0</div>`)[0];
+                popup_b30343833b80aa092e88943b60cd9892.setContent(html_5eff4d62712b2495501f200fbe0c14d9);
+            
+        
+
+        marker_17bbd4965ea55c9449dd611e9bb5e6c8.bindPopup(popup_b30343833b80aa092e88943b60cd9892)
+        ;
+
+        
+    
+    
+            var marker_dd952bbb8c5f2de33b78324d68601b89 = L.marker(
+                [19.98340305, 79.69445097],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_7cfa0db14f03d45e5680e3602496dc1a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa3662761de7d79cd1da2caed6c95abd = $(`<div id="html_aa3662761de7d79cd1da2caed6c95abd" style="width: 100.0%; height: 100.0%;">BHAGARTABAI MADHUKAR PIPRE,SN-77/1 YESGAON   YESGAON  ,7769885409.0</div>`)[0];
+                popup_7cfa0db14f03d45e5680e3602496dc1a.setContent(html_aa3662761de7d79cd1da2caed6c95abd);
+            
+        
+
+        marker_dd952bbb8c5f2de33b78324d68601b89.bindPopup(popup_7cfa0db14f03d45e5680e3602496dc1a)
+        ;
+
+        
+    
+    
+            var marker_f78af03d0029613727a9b6c63ffe5540 = L.marker(
+                [19.94943729, 79.6059476],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_24799345eb54cf77dcd5cb5eac9c1f03 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_72c69a5287388248942ec95e0f1a56c3 = $(`<div id="html_72c69a5287388248942ec95e0f1a56c3" style="width: 100.0%; height: 100.0%;">GAJANAN SHRDHAR BURANDE,SN-117 DABGAON MAKTA   DABGAON MAKTA  ,9822581189.0</div>`)[0];
+                popup_24799345eb54cf77dcd5cb5eac9c1f03.setContent(html_72c69a5287388248942ec95e0f1a56c3);
+            
+        
+
+        marker_f78af03d0029613727a9b6c63ffe5540.bindPopup(popup_24799345eb54cf77dcd5cb5eac9c1f03)
+        ;
+
+        
+    
+    
+            var marker_8e51571103145c582291da4c920f59ea = L.marker(
+                [19.94888936, 79.60568469],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_c858c9c87789230d6f8ea7cdeae175d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2bdfd6f444487300a80e25b81217b3e1 = $(`<div id="html_2bdfd6f444487300a80e25b81217b3e1" style="width: 100.0%; height: 100.0%;">BIJNATH LAXMAN DHODRE,SN-74 DABGAON MAKTA   DABGAON MAKTA  ,7888267589.0</div>`)[0];
+                popup_c858c9c87789230d6f8ea7cdeae175d6.setContent(html_2bdfd6f444487300a80e25b81217b3e1);
+            
+        
+
+        marker_8e51571103145c582291da4c920f59ea.bindPopup(popup_c858c9c87789230d6f8ea7cdeae175d6)
+        ;
+
+        
+    
+    
+            var marker_be50f61d6e819ec044e969dba5ba7a52 = L.marker(
+                [19.94540512, 79.59468346],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_d3288d5a4ac94eec45531036fc7eaa24 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb63401af71e8a728863826f1d80e163 = $(`<div id="html_eb63401af71e8a728863826f1d80e163" style="width: 100.0%; height: 100.0%;">RAMCHANDRA RAGHOJI KIRME,SN-6/3 DABGAON MAKTA   DABGAON MAKTA  ,9822294693.0</div>`)[0];
+                popup_d3288d5a4ac94eec45531036fc7eaa24.setContent(html_eb63401af71e8a728863826f1d80e163);
+            
+        
+
+        marker_be50f61d6e819ec044e969dba5ba7a52.bindPopup(popup_d3288d5a4ac94eec45531036fc7eaa24)
+        ;
+
+        
+    
+    
+            var marker_07180b56a27d3f35730f3354201b5a6f = L.marker(
+                [20.01443104, 79.64278671],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_3ea08d14d7b1af7fc4019201e73fc412 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2fd069fd22d0a2ff00ff15eee1b3ec68 = $(`<div id="html_2fd069fd22d0a2ff00ff15eee1b3ec68" style="width: 100.0%; height: 100.0%;">FAKIRA KAWDU NAGOSE,SN 65 KAWADPETH   KAWADPETH  ,9673259934.0</div>`)[0];
+                popup_3ea08d14d7b1af7fc4019201e73fc412.setContent(html_2fd069fd22d0a2ff00ff15eee1b3ec68);
+            
+        
+
+        marker_07180b56a27d3f35730f3354201b5a6f.bindPopup(popup_3ea08d14d7b1af7fc4019201e73fc412)
+        ;
+
+        
+    
+    
+            var marker_80c83d2b8c18fb4fe63929f3b3efab9f = L.marker(
+                [19.98045598, 79.69120054],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_dc559db3f2772f42cb088a0a380150a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b28759316e04458cdeb521cadb1ce9bc = $(`<div id="html_b28759316e04458cdeb521cadb1ce9bc" style="width: 100.0%; height: 100.0%;">SANJAY KASHINATH CHALAKH,SN 225 SINTHALA   SINTHALA  ,9545122429.0</div>`)[0];
+                popup_dc559db3f2772f42cb088a0a380150a6.setContent(html_b28759316e04458cdeb521cadb1ce9bc);
+            
+        
+
+        marker_80c83d2b8c18fb4fe63929f3b3efab9f.bindPopup(popup_dc559db3f2772f42cb088a0a380150a6)
+        ;
+
+        
+    
+    
+            var marker_1030bcf0356759c25145e80203ad4f17 = L.marker(
+                [20.01464722, 79.67988046],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_8836807511b3cea734a73f5c48e0919e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3a3109d412f481c3bb6b9a337478298 = $(`<div id="html_b3a3109d412f481c3bb6b9a337478298" style="width: 100.0%; height: 100.0%;">CHANDU PUNJARAM KOTHARE,SN 39 HALDI   HALDI  ,7264837608.0</div>`)[0];
+                popup_8836807511b3cea734a73f5c48e0919e.setContent(html_b3a3109d412f481c3bb6b9a337478298);
+            
+        
+
+        marker_1030bcf0356759c25145e80203ad4f17.bindPopup(popup_8836807511b3cea734a73f5c48e0919e)
+        ;
+
+        
+    
+    
+            var marker_b3d75b04ecb67a24d3f6df5230534661 = L.marker(
+                [19.98800626, 79.61876359],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_cd61eb0991ef0673155300468961a325 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8fe4a0ffdf5ee5e11ffec07532e2c23d = $(`<div id="html_8fe4a0ffdf5ee5e11ffec07532e2c23d" style="width: 100.0%; height: 100.0%;">RAJU NAMDEO SHENDE,SN-94 CHIROLI   CHIROLI  ,9623227961.0</div>`)[0];
+                popup_cd61eb0991ef0673155300468961a325.setContent(html_8fe4a0ffdf5ee5e11ffec07532e2c23d);
+            
+        
+
+        marker_b3d75b04ecb67a24d3f6df5230534661.bindPopup(popup_cd61eb0991ef0673155300468961a325)
+        ;
+
+        
+    
+    
+            var marker_2463d15dcc2f600894bb42830e15af56 = L.marker(
+                [19.96703287, 79.6676906],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_cd7a2aa580b9216d72d309caec518fe9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5bafc40c4dade30311c99c46dec18930 = $(`<div id="html_5bafc40c4dade30311c99c46dec18930" style="width: 100.0%; height: 100.0%;">NARAYAN SADASHIV RAMTEKE,SN-110 CHAK-GHOSRI   CHAK-GHOSRI  ,9689220187.0</div>`)[0];
+                popup_cd7a2aa580b9216d72d309caec518fe9.setContent(html_5bafc40c4dade30311c99c46dec18930);
+            
+        
+
+        marker_2463d15dcc2f600894bb42830e15af56.bindPopup(popup_cd7a2aa580b9216d72d309caec518fe9)
+        ;
+
+        
+    
+    
+            var marker_4f78667acac1d27fea49ea5c721a6316 = L.marker(
+                [20.1097025, 79.68332911],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_ebc6ead882fa8d7589db65c9ba57b524 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5ab24591dd50fc5d822ea72b4670221 = $(`<div id="html_b5ab24591dd50fc5d822ea72b4670221" style="width: 100.0%; height: 100.0%;">SANDIP TUKARAM SHRIRAME,SN-103 CHITEGAON   CHITEGAON  ,8380985074.0</div>`)[0];
+                popup_ebc6ead882fa8d7589db65c9ba57b524.setContent(html_b5ab24591dd50fc5d822ea72b4670221);
+            
+        
+
+        marker_4f78667acac1d27fea49ea5c721a6316.bindPopup(popup_ebc6ead882fa8d7589db65c9ba57b524)
+        ;
+
+        
+    
+    
+            var marker_b306ee72ebac2eabf19d7ae12deae2ad = L.marker(
+                [20.00395966, 79.66796097],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_367278127550ce19dcf2b7228e8ca05a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d11959eae9a8abb3e4a682688faf2209 = $(`<div id="html_d11959eae9a8abb3e4a682688faf2209" style="width: 100.0%; height: 100.0%;">SURESH DEWAJI WAIRAGADE,SN-76 HALDI   HALDI  ,9673256497.0</div>`)[0];
+                popup_367278127550ce19dcf2b7228e8ca05a.setContent(html_d11959eae9a8abb3e4a682688faf2209);
+            
+        
+
+        marker_b306ee72ebac2eabf19d7ae12deae2ad.bindPopup(popup_367278127550ce19dcf2b7228e8ca05a)
+        ;
+
+        
+    
+    
+            var marker_0519eb16b616a36a83e3ec53f40db94f = L.marker(
+                [20.00486747, 79.57584911],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_6a5773b6d4d2b6eef48271c012249945 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d72ecb6183c878858fe03a3ebd5369d = $(`<div id="html_5d72ecb6183c878858fe03a3ebd5369d" style="width: 100.0%; height: 100.0%;">SHANKAR HARBAJI  GEDAM,SN 179 BHAGWANPUR   BHAGWANPUR  ,9421921719.0</div>`)[0];
+                popup_6a5773b6d4d2b6eef48271c012249945.setContent(html_5d72ecb6183c878858fe03a3ebd5369d);
+            
+        
+
+        marker_0519eb16b616a36a83e3ec53f40db94f.bindPopup(popup_6a5773b6d4d2b6eef48271c012249945)
+        ;
+
+        
+    
+    
+            var marker_2fea319f214f7ad04cfbfeacb7d326c5 = L.marker(
+                [19.98111838, 79.69638554],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_0a517d7227803a8dee701dfb8ebba72a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3f9b7924ad7e37dc790641f9a1186c3 = $(`<div id="html_c3f9b7924ad7e37dc790641f9a1186c3" style="width: 100.0%; height: 100.0%;">RAMESH DONUJI  SATPUTE,SN 180 YEJGAON   YEJGAON  ,9373035127.0</div>`)[0];
+                popup_0a517d7227803a8dee701dfb8ebba72a.setContent(html_c3f9b7924ad7e37dc790641f9a1186c3);
+            
+        
+
+        marker_2fea319f214f7ad04cfbfeacb7d326c5.bindPopup(popup_0a517d7227803a8dee701dfb8ebba72a)
+        ;
+
+        
+    
+    
+            var marker_dd7ce433347026071b45e4f102b6f3ab = L.marker(
+                [20.01518113, 79.63863277],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_5dacdc8e386e06db77719084dcd218be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c585735bb3b19e8ed36cc918ded6470 = $(`<div id="html_8c585735bb3b19e8ed36cc918ded6470" style="width: 100.0%; height: 100.0%;">DHANRAJ ZITU LENGURE,SN 89 KAWADPETH   KAWADPETH  ,8975825023.0</div>`)[0];
+                popup_5dacdc8e386e06db77719084dcd218be.setContent(html_8c585735bb3b19e8ed36cc918ded6470);
+            
+        
+
+        marker_dd7ce433347026071b45e4f102b6f3ab.bindPopup(popup_5dacdc8e386e06db77719084dcd218be)
+        ;
+
+        
+    
+    
+            var marker_ceebc6b5d82f194e505e0182b3c748e7 = L.marker(
+                [20.01074783, 79.68078575],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_782a9d459486750d7dc9a6bc96e6d46b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9fd7f33f6fafbd2521129918e23fc0d0 = $(`<div id="html_9fd7f33f6fafbd2521129918e23fc0d0" style="width: 100.0%; height: 100.0%;">NITESH SHANKAR CHALAKH,SN 128 HALDI   HALDI  ,9765355920.0</div>`)[0];
+                popup_782a9d459486750d7dc9a6bc96e6d46b.setContent(html_9fd7f33f6fafbd2521129918e23fc0d0);
+            
+        
+
+        marker_ceebc6b5d82f194e505e0182b3c748e7.bindPopup(popup_782a9d459486750d7dc9a6bc96e6d46b)
+        ;
+
+        
+    
+    
+            var marker_959500762c419f8f02d33673e3474fc7 = L.marker(
+                [19.95192093, 79.61815906],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_b183bf16b41cb25fe3d7786fe27adbe6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43253e065e23b49d2d721593b52e2ccc = $(`<div id="html_43253e065e23b49d2d721593b52e2ccc" style="width: 100.0%; height: 100.0%;">PUNAJI  RAOJI  WADHAI,SN 8 SUSHI   SUSHI  ,8888386998.0</div>`)[0];
+                popup_b183bf16b41cb25fe3d7786fe27adbe6.setContent(html_43253e065e23b49d2d721593b52e2ccc);
+            
+        
+
+        marker_959500762c419f8f02d33673e3474fc7.bindPopup(popup_b183bf16b41cb25fe3d7786fe27adbe6)
+        ;
+
+        
+    
+    
+            var marker_807c0bc8d26efb7688a8f85566864d60 = L.marker(
+                [19.96344563, 79.60258418],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_0160a61ade64b7ad342aa2ead47d5dc9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01c8ee3d9b71a9671f236a8ff69a9d45 = $(`<div id="html_01c8ee3d9b71a9671f236a8ff69a9d45" style="width: 100.0%; height: 100.0%;">SHAMRAO TUKARAM TIKALE,SN 57 DABGAON   DABGAON  ,9960218630.0</div>`)[0];
+                popup_0160a61ade64b7ad342aa2ead47d5dc9.setContent(html_01c8ee3d9b71a9671f236a8ff69a9d45);
+            
+        
+
+        marker_807c0bc8d26efb7688a8f85566864d60.bindPopup(popup_0160a61ade64b7ad342aa2ead47d5dc9)
+        ;
+
+        
+    
+    
+            var marker_fd9794da44434cb5be89bc9ab474978f = L.marker(
+                [19.94946934, 79.60462896],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_adb97726816d2a2bfa8f58113cb7343c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b0bae9212bb4b3579d2fc8afbabfb7be = $(`<div id="html_b0bae9212bb4b3579d2fc8afbabfb7be" style="width: 100.0%; height: 100.0%;">AMBADAS\` PATRUJI GEDAM,SN 78 DABGAON   DABGAON  ,8805576355.0</div>`)[0];
+                popup_adb97726816d2a2bfa8f58113cb7343c.setContent(html_b0bae9212bb4b3579d2fc8afbabfb7be);
+            
+        
+
+        marker_fd9794da44434cb5be89bc9ab474978f.bindPopup(popup_adb97726816d2a2bfa8f58113cb7343c)
+        ;
+
+        
+    
+    
+            var marker_c9f6295b8b39faccc3ecaff4674fc528 = L.marker(
+                [19.94920123, 79.60562767],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_beb5e51c753f3883c4797b255a7a46cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b621e0c1cad3820611abe52de55df93 = $(`<div id="html_5b621e0c1cad3820611abe52de55df93" style="width: 100.0%; height: 100.0%;">KISAN DUKRU WALKE,SN 72 DABGAON   DABGAON  ,9764624432.0</div>`)[0];
+                popup_beb5e51c753f3883c4797b255a7a46cf.setContent(html_5b621e0c1cad3820611abe52de55df93);
+            
+        
+
+        marker_c9f6295b8b39faccc3ecaff4674fc528.bindPopup(popup_beb5e51c753f3883c4797b255a7a46cf)
+        ;
+
+        
+    
+    
+            var marker_90f27b011a93093e80cebc39f306ee89 = L.marker(
+                [20.01280218, 79.65369505],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_3973af05fc364851426302f48a6c5744 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64fc4d710ab73ffdc203b662be084136 = $(`<div id="html_64fc4d710ab73ffdc203b662be084136" style="width: 100.0%; height: 100.0%;">RAVINDRA SUDHAKAR CHALAKH,SN 129 HALDI   HALDI  ,7218248016.0</div>`)[0];
+                popup_3973af05fc364851426302f48a6c5744.setContent(html_64fc4d710ab73ffdc203b662be084136);
+            
+        
+
+        marker_90f27b011a93093e80cebc39f306ee89.bindPopup(popup_3973af05fc364851426302f48a6c5744)
+        ;
+
+        
+    
+    
+            var marker_7db1541860d5dab96fc421fff9863a35 = L.marker(
+                [20.0837779, 79.7146001],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_4b4561728a2d972534ae29e5abc8c5dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55fdb32d1252492998102de1d9a06792 = $(`<div id="html_55fdb32d1252492998102de1d9a06792" style="width: 100.0%; height: 100.0%;">VITTAL DHIWRU NAGOSE,SN 264 MAREGAON   MAREGAON  ,9657413446.0</div>`)[0];
+                popup_4b4561728a2d972534ae29e5abc8c5dc.setContent(html_55fdb32d1252492998102de1d9a06792);
+            
+        
+
+        marker_7db1541860d5dab96fc421fff9863a35.bindPopup(popup_4b4561728a2d972534ae29e5abc8c5dc)
+        ;
+
+        
+    
+    
+            var marker_cb3f05110d0067118983990576fbbeda = L.marker(
+                [20.06609626, 79.68091519],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_fb3e1ef6935c474fa16c1d775d07bd31 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d23c2db3af53a8cb6cb6297e04cce48 = $(`<div id="html_4d23c2db3af53a8cb6cb6297e04cce48" style="width: 100.0%; height: 100.0%;">SURESH PATRUJI MADAVI,SN-132 SADAGAD HETI   SADAGAD HETI  ,7030813783.0</div>`)[0];
+                popup_fb3e1ef6935c474fa16c1d775d07bd31.setContent(html_4d23c2db3af53a8cb6cb6297e04cce48);
+            
+        
+
+        marker_cb3f05110d0067118983990576fbbeda.bindPopup(popup_fb3e1ef6935c474fa16c1d775d07bd31)
+        ;
+
+        
+    
+    
+            var marker_353c37cd80e4e5a1e11c9b41f0043659 = L.marker(
+                [20.15364323, 79.68069437],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_431b6d7ea88ca5496040b79dfac24282 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_39354dc33a3637824f87874e9380f441 = $(`<div id="html_39354dc33a3637824f87874e9380f441" style="width: 100.0%; height: 100.0%;">DUMAJI SHRAWAN WAKUDKAR,SN-415 CHIKHALI   CHIKHALI MUL ,9665893624.0</div>`)[0];
+                popup_431b6d7ea88ca5496040b79dfac24282.setContent(html_39354dc33a3637824f87874e9380f441);
+            
+        
+
+        marker_353c37cd80e4e5a1e11c9b41f0043659.bindPopup(popup_431b6d7ea88ca5496040b79dfac24282)
+        ;
+
+        
+    
+    
+            var marker_0f4292372dac334ecf1181c9f03af032 = L.marker(
+                [20.0765613, 79.7316703],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_8d71854c542491e5600c662d04c9d303 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf5f601936e987eb6deffa2c45366da4 = $(`<div id="html_bf5f601936e987eb6deffa2c45366da4" style="width: 100.0%; height: 100.0%;">AMBADAS BONUJI BORULE,SN-396 CHIMDHA   CHIMDHA MUL ,7875138516.0</div>`)[0];
+                popup_8d71854c542491e5600c662d04c9d303.setContent(html_bf5f601936e987eb6deffa2c45366da4);
+            
+        
+
+        marker_0f4292372dac334ecf1181c9f03af032.bindPopup(popup_8d71854c542491e5600c662d04c9d303)
+        ;
+
+        
+    
+    
+            var marker_ef92872b87e0f2dcf3ea3cbc84531a3b = L.marker(
+                [20.00482088, 79.6169325],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_508165e271b7722a1b0032c56cf5081d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f6449e520cb66e71ccfde0a12ad289b3 = $(`<div id="html_f6449e520cb66e71ccfde0a12ad289b3" style="width: 100.0%; height: 100.0%;">BHAUJI BIJA NIKODE,SN-680 CHIROLI   CHIROLI MUL ,9921322793.0</div>`)[0];
+                popup_508165e271b7722a1b0032c56cf5081d.setContent(html_f6449e520cb66e71ccfde0a12ad289b3);
+            
+        
+
+        marker_ef92872b87e0f2dcf3ea3cbc84531a3b.bindPopup(popup_508165e271b7722a1b0032c56cf5081d)
+        ;
+
+        
+    
+    
+            var marker_d94ac6dc033e063ebba97280f9c20d1e = L.marker(
+                [20.03531942, 79.67553109],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_8237162dd994b7ff633338bb0e4b0846 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cfee829196d72600827f5e8cc3e6ac72 = $(`<div id="html_cfee829196d72600827f5e8cc3e6ac72" style="width: 100.0%; height: 100.0%;">KUSHAL KASHINATH NIMGADE,SN-434 TADALA   TADALA MUL ,9657893291.0</div>`)[0];
+                popup_8237162dd994b7ff633338bb0e4b0846.setContent(html_cfee829196d72600827f5e8cc3e6ac72);
+            
+        
+
+        marker_d94ac6dc033e063ebba97280f9c20d1e.bindPopup(popup_8237162dd994b7ff633338bb0e4b0846)
+        ;
+
+        
+    
+    
+            var marker_d3080e61c70d6f2ea13b4391c1ab9f96 = L.marker(
+                [19.98868088, 79.6892875],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_e2753d6e825d350c1d76d32ccadbbef7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17e546faa56331eb39ac5a485b597c94 = $(`<div id="html_17e546faa56331eb39ac5a485b597c94" style="width: 100.0%; height: 100.0%;">RAVINDRA RAMAJI BAWANE,SN-20/6 CHEK-BEMBAL   CHEK-BEMBAL MUL ,9637782014.0</div>`)[0];
+                popup_e2753d6e825d350c1d76d32ccadbbef7.setContent(html_17e546faa56331eb39ac5a485b597c94);
+            
+        
+
+        marker_d3080e61c70d6f2ea13b4391c1ab9f96.bindPopup(popup_e2753d6e825d350c1d76d32ccadbbef7)
+        ;
+
+        
+    
+    
+            var marker_4b0d472f673655f23aee53835008a1f9 = L.marker(
+                [19.94951156, 79.66825424],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_77317050a40c41a151975a3610235ef6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f96d1526fd6f1cf22fb5ca6a52de93ea = $(`<div id="html_f96d1526fd6f1cf22fb5ca6a52de93ea" style="width: 100.0%; height: 100.0%;">HARBAJI WASUDEO NAGAPURE,SN-23 YERGAON   YERGAON MUL ,9011214807.0</div>`)[0];
+                popup_77317050a40c41a151975a3610235ef6.setContent(html_f96d1526fd6f1cf22fb5ca6a52de93ea);
+            
+        
+
+        marker_4b0d472f673655f23aee53835008a1f9.bindPopup(popup_77317050a40c41a151975a3610235ef6)
+        ;
+
+        
+    
+    
+            var marker_6ab7d293057caa233191db3a2e03129f = L.marker(
+                [20.02547346, 79.659595],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_d89526e4bd325c68d430e8f617db26aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0819a8db146658d768785e558838360e = $(`<div id="html_0819a8db146658d768785e558838360e" style="width: 100.0%; height: 100.0%;">HARI KANHU DUDHABALE,SN-05 CHICHALA   CHICHALA MUL ,9767192509.0</div>`)[0];
+                popup_d89526e4bd325c68d430e8f617db26aa.setContent(html_0819a8db146658d768785e558838360e);
+            
+        
+
+        marker_6ab7d293057caa233191db3a2e03129f.bindPopup(popup_d89526e4bd325c68d430e8f617db26aa)
+        ;
+
+        
+    
+    
+            var marker_4f0987433720922c9697e32636133a31 = L.marker(
+                [20.14434854, 79.71852205],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_fc1beb0d98eeb8d9f29a0ddedae67fd8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53acf1a23dcb507d68166a640533c979 = $(`<div id="html_53acf1a23dcb507d68166a640533c979" style="width: 100.0%; height: 100.0%;">KALSUBAI UDHAO KADASKAR,SN 30 CHIKHLI   CHIKHLI MUL ,9765441432.0</div>`)[0];
+                popup_fc1beb0d98eeb8d9f29a0ddedae67fd8.setContent(html_53acf1a23dcb507d68166a640533c979);
+            
+        
+
+        marker_4f0987433720922c9697e32636133a31.bindPopup(popup_fc1beb0d98eeb8d9f29a0ddedae67fd8)
+        ;
+
+        
+    
+    
+            var marker_fbe26f3d0dbb42ef8946beead002b27a = L.marker(
+                [20.10214805603, 79.698643684387],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_188f504041b98725b84000fd2283ee1b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_613c477631eed6505389a8b57e9501af = $(`<div id="html_613c477631eed6505389a8b57e9501af" style="width: 100.0%; height: 100.0%;">NAVNEET WASUDEO RANDIVE,SN 450 CHITEGAON   CHITEGAON MUL ,8600223530.0</div>`)[0];
+                popup_188f504041b98725b84000fd2283ee1b.setContent(html_613c477631eed6505389a8b57e9501af);
+            
+        
+
+        marker_fbe26f3d0dbb42ef8946beead002b27a.bindPopup(popup_188f504041b98725b84000fd2283ee1b)
+        ;
+
+        
+    
+    
+            var marker_fc8c806899083a57078f72c54aab6b21 = L.marker(
+                [20.00924726, 79.65547621],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_729f9fcb070e8dd803630b866dd82648 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f18bbe370ccd656ae62cf974ed8c913 = $(`<div id="html_8f18bbe370ccd656ae62cf974ed8c913" style="width: 100.0%; height: 100.0%;">DAULAT BALAJI KOTHARE,SN 127 KAWADPETH   KAWADPETH MUL ,9823227367.0</div>`)[0];
+                popup_729f9fcb070e8dd803630b866dd82648.setContent(html_8f18bbe370ccd656ae62cf974ed8c913);
+            
+        
+
+        marker_fc8c806899083a57078f72c54aab6b21.bindPopup(popup_729f9fcb070e8dd803630b866dd82648)
+        ;
+
+        
+    
+    
+            var marker_c148084692cf852d80770b95a3ccb720 = L.marker(
+                [20.130193233489, 79.688612222671],
+                {}
+            ).addTo(marker_cluster_d65230a25fa895c83cb76b6b01304d29);
+        
+    
+        var popup_28f62ca67a5a4a39360b22a072cb6121 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f6a2aa0c7e742c5c785bd5342e30e18 = $(`<div id="html_5f6a2aa0c7e742c5c785bd5342e30e18" style="width: 100.0%; height: 100.0%;">JAYCHAND SURYACHAND YERME,SN-81 BELGHATA   BELGHATA MUL ,8308407284.0</div>`)[0];
+                popup_28f62ca67a5a4a39360b22a072cb6121.setContent(html_5f6a2aa0c7e742c5c785bd5342e30e18);
+            
+        
+
+        marker_c148084692cf852d80770b95a3ccb720.bindPopup(popup_28f62ca67a5a4a39360b22a072cb6121)
+        ;
+
+        
+    
+    
+            marker_cluster_d65230a25fa895c83cb76b6b01304d29.addTo(map_7300b1b879842eef3bc8dde3bb688753);
+        
+</script>
+</html>
