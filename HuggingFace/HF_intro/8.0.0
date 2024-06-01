@@ -1,0 +1,2 @@
+Requirement already satisfied: pyarrow in c:\users\amamidwar\appdata\local\anaconda3\envs\venv_learning\lib\site-packages (15.0.0)
+Requirement already satisfied: numpy<2,>=1.16.6 in c:\users\amamidwar\appdata\local\anaconda3\envs\venv_learning\lib\site-packages (from pyarrow) (1.26.4)
